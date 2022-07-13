@@ -160,11 +160,7 @@ public class Main {
             System.out.println("Heroes won!!!");
             return true;
         }
-        /*if (heroesHealth[0] <= 0 && heroesHealth[1] <= 0 && heroesHealth[2] <= 0) {
-            System.out.println("Boss won!!!");
-            return true;
-        }
-        return false;*/
+
         boolean allHeroesDead = true;
         for (int i = 0; i < heroesHealth.length; i++) {
             if (heroesHealth[i] > 0) {
